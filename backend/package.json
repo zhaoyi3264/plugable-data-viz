@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "csvtojson": "^2.0.10",
+    "dataframe-js": "^1.4.4",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "kill-port": "^1.6.1",
+    "morgan": "^1.10.0",
+    "node-csv": "^0.1.2",
+    "yelp-api": "^1.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.7",
+    "sentiment": "^5.0.2"
+  },
+  "license": "MIT"
+}
